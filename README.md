@@ -25,6 +25,7 @@ print(thistuple)
 
 ```
 </details>
+
 #### Tuple With One Item
 Để tạo một tuple chỉ có một phần tử, phải thêm dấu phẩy sau phần tử đó, nếu không Python sẽ không nhận dạng được đó là một tuple.
 <details>
@@ -48,6 +49,7 @@ tuple1 = ("abc", 34, True, 40, "male")
 ```
 
 </details>
+
 #### Tuple() Constructor
 Có thể sử dụng hàm tạo tuple() để tạo một tuple.
 <details>
