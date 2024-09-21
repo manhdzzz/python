@@ -5,6 +5,8 @@ Một tuple là một tập hợp được sắp xếp và 'không thể thay đ
 Các tuple được viết bằng dấu ngoặc tròn.
 <details>
 #### Ví dụ
+    '''
     mytuple = ("apple", "banana", "cherry")
+    '''
 ####
 </details>
