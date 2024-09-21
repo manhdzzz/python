@@ -14,6 +14,7 @@ print(thistuple)
 ```
 
 </details>
+
 #### Tuple Items
 Các mục tuple được sắp xếp theo thứ tự, không thể thay đổi và cho phép các giá trị trùng lặp.
 <details>
