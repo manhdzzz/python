@@ -2,7 +2,7 @@
 ## 1. Tuples
 
 ### Python Tuple
-#### Tuple
+#### - Tuple
 Tuple được sử dụng để lưu trữ nhiều mục trong một biến duy nhất.
 Một tuple là một tập hợp được sắp xếp và 'không thể thay đổi'.
 Các tuple được viết bằng dấu ngoặc tròn.
@@ -15,7 +15,7 @@ print(thistuple)
 
 </details>
 
-#### Tuple Items
+#### - Tuple Items
 Các mục tuple được sắp xếp theo thứ tự, không thể thay đổi và cho phép các giá trị trùng lặp.
 <details>
   
@@ -26,7 +26,7 @@ print(thistuple)
 ```
 </details>
 
-#### Tuple With One Item
+#### - Tuple With One Item
 Để tạo một tuple chỉ có một phần tử, phải thêm dấu phẩy sau phần tử đó, nếu không Python sẽ không nhận dạng được đó là một tuple.
 <details>
   
@@ -40,7 +40,7 @@ print(type(thistuple))
 
 </details>
 
-#### Tuple Data Types
+#### - Tuple Data Types
 Các mục tuple có thể thuộc bất kỳ kiểu dữ liệu nào:
 <details>
   
@@ -50,7 +50,7 @@ tuple1 = ("abc", 34, True, 40, "male")
 
 </details>
 
-#### Tuple() Constructor
+#### - Tuple() Constructor
 Có thể sử dụng hàm tạo tuple() để tạo một tuple.
 <details>
   
