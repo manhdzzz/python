@@ -75,6 +75,7 @@ print(thistuple[1])
 
 #### - Negative Indexing
 Lập chỉ mục âm có nghĩa là bắt đầu từ cuối.
+
 -1đề cập đến mục cuối cùng, -2đề cập đến mục thứ hai từ cuối, v.v.
 <details>
   
@@ -87,6 +88,7 @@ print(thistuple[-1])
 
 #### - Range of Indexes
 Chỉ định một phạm vi chỉ mục bằng cách chỉ định nơi bắt đầu và nơi kết thúc phạm vi.
+
 Ví dụ trả về mục thứ ba, thứ tư và thứ năm:
 <details>
   
@@ -99,6 +101,7 @@ print(thistuple[2:5])
 
 #### - Check if Item Exists
 Xác định xem một mục cụ thể có xuất hiện trong một bộ hay không
+
 Ví dụ kiểm tra xem "apple" có trong tuple không
 <details>
   
