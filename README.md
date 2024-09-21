@@ -61,6 +61,60 @@ print(thistuple)
 
 </details>
 
+### Access Tuple
+#### - Access Tuple Items
+Truy cập các mục tuple bằng cách tham chiếu đến số chỉ mục, bên trong dấu ngoặc vuông:
+<details>
+  
+```shell script
+thistuple = ("apple", "banana", "cherry")
+print(thistuple[1])
+```
+
+</details>
+
+#### - Negative Indexing
+Lập chỉ mục âm có nghĩa là bắt đầu từ cuối.
+-1đề cập đến mục cuối cùng, -2đề cập đến mục thứ hai từ cuối, v.v.
+<details>
+  
+```shell script
+thistuple = ("apple", "banana", "cherry")
+print(thistuple[-1])
+```
+
+</details>
+
+#### - Range of Indexes
+Chỉ định một phạm vi chỉ mục bằng cách chỉ định nơi bắt đầu và nơi kết thúc phạm vi.
+Ví dụ trả về mục thứ ba, thứ tư và thứ năm:
+<details>
+  
+```shell script
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[2:5])
+```
+
+</details>
+
+#### - Check if Item Exists
+Xác định xem một mục cụ thể có xuất hiện trong một bộ hay không
+Ví dụ kiểm tra xem "apple" có trong tuple không
+<details>
+  
+```shell script
+thistuple = ("apple", "banana", "cherry")
+if "apple" in thistuple:
+  print("Yes, 'apple' is in the fruits tuple")
+```
+
+</details>
+
+
+
+
+
+
 
 
 
