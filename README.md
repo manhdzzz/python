@@ -6,4 +6,5 @@ Các tuple được viết bằng dấu ngoặc tròn.
 <details>
 #### Ví dụ
     mytuple = ("apple", "banana", "cherry")
+####
 </details>
