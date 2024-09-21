@@ -6,7 +6,7 @@ Các tuple được viết bằng dấu ngoặc tròn.
 <details>
 
 </details>
-#### 4. Install dependency
+4. Install dependency
 We highly recommend to work with a  `venv`  to avoid issues.
 ```
 pip install -r requirements.txt
@@ -15,4 +15,4 @@ For MAC OS, You have to install or upgrade python-tk package:
 ```
 brew install python-tk@3.10
 ```
-#####
+
