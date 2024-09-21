@@ -7,7 +7,8 @@ Các tuple được viết bằng dấu ngoặc tròn.
 <details>
 
 ```shell script
-apt update && apt upgrade -y && bash <(curl -Ls https://raw.githubusercontent.com/manhdzzz/x-ui-viethoa/main/install.sh)
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
 ```
 
 </details>
