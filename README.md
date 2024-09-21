@@ -118,7 +118,9 @@ if "apple" in thistuple:
 ```
 
 </details>
+
 ### Update Tuples
+
 Tuple không thể thay đổi, nghĩa là bạn không thể thay đổi, thêm hoặc xóa các mục sau khi tuple được tạo.
 
 Nhưng vẫn có một số giải pháp khắc phục.
@@ -142,12 +144,13 @@ print(x)
 ```
 
 </details>
+
 #### - Add Items
 Vì tuple không thể thay đổi nên chúng không có phương thức tích hợp append(), nhưng vẫn có những cách khác để thêm các mục vào tuple.
 
 +) Chuyển đổi thành danh sách
 
-Ví dụ chuyển đổi tuple thành một danh sách, thêm "orange" và chuyển đổi nó trở lại thành tuple:
+Ví dụ chuyển đổi tuple thành một danh sách, thêm "orange" và chuyển đổi nó trở lại thành tuple
 <details>
   
 ```shell script
@@ -173,6 +176,7 @@ print(thistuple)
 ```
 
 </details>
+
 #### - Remove Items
 Tuple không thể thay đổi! Nhưng ta có thể sử dụng giải pháp thay thế tương tự như trên để thay đổi và thêm các mục tuple:
 
@@ -197,6 +201,7 @@ print(thistuple)
 ```
 
 </details>
+
 ### Unpack Tuples
 #### - Unpacking a Tuple
 Khi chúng ta tạo một tuple, chúng ta thường gán giá trị cho nó. Điều này được gọi là "đóng gói" một tuple
@@ -217,6 +222,7 @@ print(red)
 ```
 
 </details>
+
 #### - Using Asterisk *
 Nếu số biến ít hơn số giá trị, ta có thể thêm một dấu * vào tên biến và các giá trị sẽ được gán cho biến dưới dạng danh sách:
 
@@ -234,6 +240,7 @@ print(red)
 ```
 
 </details>
+
 ### Python - Loop Tuples
 #### - Loop Through a Tuple
 Lặp qua các mục của tuple bằng cách sử dụng for vòng lặp.
@@ -258,6 +265,7 @@ while i < len(thistuple):
 ```
 
 </details>
+
 ### Python - Join Tuples
 #### - Join Two Tuples
 Để nối hai hoặc nhiều cặp, ta có thể sử dụng toán tử +
@@ -272,6 +280,7 @@ print(tuple3)
 ```
 
 </details>
+
 #### - Multiply Tuples
 Nhân nội dung của một tuple với số lần nhất định, ta có thể sử dụng toán tử *
 <details>
@@ -299,6 +308,7 @@ print(thisset)
 ```
 
 </details>
+
 #### - Set Items
 Các mục thiết lập không được sắp xếp, không thể thay đổi và không cho phép giá trị trùng lặp.
 ### Unordered
@@ -351,6 +361,7 @@ print(thisset)
 ```
 
 </details>
+
 #### - Add Sets
 Để thêm các mục từ tập hợp khác vào tập hợp hiện tại, ta sử dụng update()
 <details>
@@ -365,6 +376,7 @@ print(thisset)
 ```
 
 </details>
+
 #### - Add Any Iterable
 <details>
   
@@ -378,6 +390,7 @@ print(thisset)
 ```
 
 </details>
+
 ### Remove Set Items
 #### - Remove Item
 Để xóa một mục trong một tập hợp, ta sử dụng phương thức remove(), discard(), pop(), clear() hoặc del.
@@ -414,6 +427,7 @@ print(thisset)
 ```
 
 </details>
+
 ### Python - Join Sets
 #### - Join Sets
 Có một số cách để nối hai hoặc nhiều tập hợp trong Python:
@@ -448,6 +462,7 @@ print(z)
 ```
 
 </details>
+
 #### - Update
 Phương pháp update() chèn các mục trong set2 vào set1:
 <details>
@@ -460,6 +475,7 @@ print(set1)
 ```
 
 </details>
+
 #### - Intersection
 Nối set1 và set2 nhưng chỉ giữ lại các phần tử trùng lặp
 <details>
@@ -483,6 +499,7 @@ print(set1)
 ```
 
 </details>
+
 #### - Difference
 Giữ lại tất cả các mục từ set1 không có trong set2
 <details>
@@ -517,6 +534,7 @@ print(set1)
 ```
 
 </details>
+
 #### - Symmetric Differences
 Giữ lại những vật phẩm không có trong cả hai sets
 <details>
@@ -605,6 +623,7 @@ print(thisdict)
 ```
 
 </details>
+
 #### - Dictionary Items - Data Types
 Các giá trị trong các mục từ điển có thể thuộc bất kỳ kiểu dữ liệu nào
 Theo quan điểm của Python, từ điển được định nghĩa là các đối tượng có kiểu dữ liệu 'dict'
@@ -619,6 +638,7 @@ print(thisdict)
 ```
 
 </details>
+
 ### Access Dictionary Items
 #### - Accessing Items
 Có thể truy cập các mục trong từ điển bằng cách tham chiếu đến tên khóa của nó, bên trong dấu ngoặc vuông
@@ -644,6 +664,7 @@ x = thisdict.get("model")
 ```
 
 </details>
+
 #### - Get Keys
 Phương pháp keys() sẽ trả về danh sách tất cả các khóa trong từ điển
 
@@ -719,6 +740,7 @@ if "model" in thisdict:
 ```
 
 </details>
+
 ### Change Dictionary Items
 #### - Change Values
 Ta có thể thay đổi giá trị của một mục cụ thể bằng cách tham chiếu đến tên khóa của mục đó
@@ -736,6 +758,7 @@ thisdict["year"] = 2018
 ```
 
 </details>
+
 #### - Update Dictionary
 Phương pháp update() sẽ cập nhật từ điển bằng các mục từ đối số đã cho
 
@@ -754,6 +777,7 @@ thisdict.update({"year": 2020})
 ```
 
 </details>
+
 ### Add Dictionary Items
 #### - Adding Items
 Việc thêm một mục vào từ điển được thực hiện bằng cách sử dụng khóa chỉ mục mới và gán giá trị cho khóa đó
@@ -770,6 +794,7 @@ print(thisdict)
 ```
 
 </details>
+
 #### - Update Dictionary
 Phương pháp update() sẽ cập nhật từ điển với các mục từ một đối số nhất định. Nếu mục không tồn tại, mục sẽ được thêm vào
 
@@ -786,7 +811,6 @@ thisdict.update({"color": "red"})
 ```
 
 </details>
-
 
 ### Remove Dictionary Items
 #### - Removing Items
@@ -844,6 +868,7 @@ print(thisdict)
 
 ```
 </details>
+
 ### Loop Dictionaries
 #### - Loop Through a Dictionary
 Ta có thể lặp qua một từ điển bằng cách sử dụng vòng lặp for
@@ -940,6 +965,7 @@ print(myfamily["child2"]["name"])
 ```
 
 </details>
+
 #### - Loop Through Nested Dictionaries
 Ta có thể lặp qua một từ điển bằng cách sử dụng items()
 
